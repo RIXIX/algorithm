@@ -1,3 +1,7 @@
+# COUNTING SHEEP
+# BAEKJOON 11123
+# https://www.acmicpc.net/problem/11123
+
 def bfs(grid, visited, start, H, W):
     queue = [start]
     visited[start[0]][start[1]] = True
@@ -34,8 +38,8 @@ for _ in range(T):
     print(count_sheep_groups(grid, H, W))
 
 
-다른사람 풀이
-(https://ye5ni.tistory.com/177)
+# 다른사람 풀이
+# (https://ye5ni.tistory.com/177)
 import sys
 sys.setrecursionlimit(100000)
  
